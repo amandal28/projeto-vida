@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.body-mv {
+    background: linear-gradient(#e4e2dd, #f8c8dc);
+    color: #4a4a4a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 240px;
+   
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #e57fa3;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #b46fa7;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.minha-visao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #c19ac4;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+.minha-visao ul li {
+   font-family: "raleway", arial;
+  align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-weight: medium;
+    padding: 20px;
+}
+
+h2 {
+    font-family: "Libre Baskerville", serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #8b5e3c
+}
+
+.minha-visao:hover{
+     box-shadow: 10px 10px 5px gray;
+     transform: translateY(-10px);
+}
+#ajusteli{
+    padding-left: 15%;
+}
+
+
+.hnav {
+    font-family: "Libre Baskerville", serif;
+    color: #5b7b62;
+    font-size: 2rem;
+    margin-top: 1px;
+    text-shadow: 3px 0 white,
+        -3px 0 white,
+        0 3px white,
+        0 -3px white,
+        2px 2px white,
+        -2px -2px white,
+        2px -2px white,
+        -2px 2px white;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a8f72;
+    color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.body-rec {
+    background: linear-gradient(#e4e2dd, #f8c8dc);
+    color: #4a4a4a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 240px;
+   
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #e57fa3;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #b46fa7;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    justify-self: center;
+    color: #5b7b62;
+}
+
+
+.hnav {
+    font-family: "Libre Baskerville", serif;
+    color: #5b7b62;
+    font-size: 2rem;
+    margin-top: 1px;
+    text-shadow: 3px 0 white,
+        -3px 0 white,
+        0 3px white,
+        0 -3px white,
+        2px 2px white,
+        -2px -2px white,
+        2px -2px white,
+        -2px 2px white;
+}
+
+.inspo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #c19ac4;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+.inspo img {
+    width: 200px;
+    align-items: center;
+    height:300px ;
+}
+
+.poema {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #c19ac4;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 945px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a8f72;
+    color: white;
+    margin-top: 20px;
+}
